@@ -33,7 +33,7 @@ Nhãn dùng để huấn luyện mô hình phát hiện **người và phương 
 
 | Thuộc tính | Giá trị | Ý nghĩa |
 |---|---|---|
-| `occluded_level` | `0`, `1`, `2`, `3` | Mức bị che: 0 là thấy rõ, 1 là bị che ít (~30%), 2 là bị che nhiều (~40 - 70%), 3 là không rõ (>=80%). |
+| `occluded_level` | `0`, `1`, `2`, `3` | Mức bị che: 0 là thấy rõ, 1 là bị che ít (từ 1 - 30%), 2 là bị che nhiều (từ 40 - 70%), 3 là không rõ (>=80%). |
 | `truncated` | `no`, `yes` | Vật bị cắt ở mép ảnh. |
 | `can_review` | tick / không | Tick khi bạn không chắc, để người khác xem lại. |
 
@@ -44,14 +44,16 @@ Nhãn dùng để huấn luyện mô hình phát hiện **người và phương 
 3. Box ôm sát vật.
 4. Chọn đúng lớp và thuộc tính.
 5. Với object overlapping thì gắn cờ occlusion / truncation theo định nghĩa.
-6. Vật thể nhỏ ..., không cần gắn nhãn
+6. Vật thể nhỏ có chiều cao < 20px không cần gắn nhãn.
+
 
 ## 4. Ca khó
 
 | Ảnh | Tình huống | Rule ID | Quyết định | Lý do |
 |---|---|---|---|---|
-| img_003 | Có người ngồi trên xe máy nhưng không di chuyển, vừa đỗ trên vỉa hè, vừa đỗ dưới lòng đường. 2 người bán hàng rong, một người ở trên vỉa hè, một người ở dưới lòng đường | | | |
+| img_003 | Có người ngồi trên xe máy nhưng không di chuyển, vừa đỗ trên vỉa hè, vừa đỗ dưới lòng đường. | 1 | Gắn nhãn 'static person' | Vật thể này đang không di chuyển và cũng sẽ không bất ngờ di chuyển|
 |
+| img_003 | Hai người bán hàng rong, một người ở trên vỉa hè, một người ở dưới lòng đường | 1 | Gán nhãn thành 2 class 'dynamic person' cho người và 'hàng rong' cho gánh hàng mà người đó sử dụng | Phân biệt phương tiện đặc biệt và người tham gia giao thông. |
 
 Nếu chưa chốt, đánh dấu `can_review` trên box hoặc ghi vấn đề cấp ảnh. Dùng mã quy tắc trong nhật ký QC.
 
