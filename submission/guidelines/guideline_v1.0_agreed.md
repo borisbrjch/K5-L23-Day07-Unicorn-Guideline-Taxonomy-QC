@@ -13,15 +13,6 @@
 | Taxonomy đi kèm | [`submission/taxonomy.json`](../taxonomy.json) |
 | Cấu hình CVAT sinh tự động | `cvat/labels_generated.json` |
 
-**Mục lục**
-
-- [1. Mục tiêu và phạm vi](#1-mục-tiêu-và-phạm-vi)
-- [2. Lớp và thuộc tính](#2-lớp-và-thuộc-tính)
-- [3. Quy tắc vẽ box](#3-quy-tắc-vẽ-box)
-- [4. Ca khó](#4-ca-khó)
-- [5. QC và phiên bản](#5-qc-và-phiên-bản)
-- [6. Câu hỏi mở](#6-câu-hỏi-mở)
-- [7. Lịch sử thay đổi](#7-lịch-sử-thay-đổi)
 
 ---
 
@@ -128,23 +119,9 @@ Mọi tranh luận về sau phải dẫn được **mã quy tắc** dưới đâ
 
 ---
 
-## 6. Câu hỏi mở
-
-Các điểm dưới đây **cần nhóm chốt** trước lượt gán độc lập; hiện đã xử lý theo hướng ghi trong ngoặc.
-
-| # | Vấn đề | Hướng xử lý hiện tại |
-| --- | --- | --- |
-| Q1 | `occluded_level` bản nháp để trống khoảng 30–40% và 70–80%. | Đã làm liền mạch: `2` = 31–70%, `3` = ≥ 71%. |
-| Q2 | Bảng lớp nói `ignore_region` dùng cho "xe đồ chơi, biển quảng cáo", nhưng R-02 nói không gán. | Đã thống nhất: vật giả đơn lẻ **không vẽ gì**; `ignore_region` chỉ khi cần ghi nhận vùng đã xét hoặc đám đông / cụm vật `< 20 px`. |
-| Q3 | Xe bus 16 chỗ bị loại khỏi `car`, `van` nhưng **không có lớp nào nhận**. | **Đã chốt:** bổ sung lớp `bus` (xe buýt, xe khách, xe từ 16 chỗ trở lên) — xem §2.1. |
-| Q4 | Người ngồi **sau** xe máy đang chạy (không điều khiển) chưa được mô tả. | Chưa chốt — đề xuất `dynamic_person`. |
-| Q5 | Xe ba bánh / xích lô có động cơ. | Chưa chốt — đề xuất `truck` nếu có thùng hàng, ngược lại `ignore_region`. |
-
----
-
 ## 7. Lịch sử thay đổi
 
 | Phiên bản | Ngày | Thay đổi |
 | --- | --- | --- |
 | `v0` | — | Bản khởi đầu do giảng viên cung cấp (5 lớp + `ignore_region`). |
-| `v1.0` | 2026-11-16 | Nhóm thống nhất 11 lớp + `ignore_region` (thêm `bus`); chuẩn hoá tên lớp sang `snake_case`; thêm mã quy tắc R-01…R-08; thêm mục rủi ro an toàn, checklist export và câu hỏi mở. |
+| `v1.0` | 2026-11-16 | Nhóm thống nhất 11 lớp + `ignore_region`|
