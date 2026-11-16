@@ -1,8 +1,8 @@
 # Thông tin nhóm
 
-- Tên nhóm:
-- Mã thành viên (ba chữ số):
-- Người điều phối:
+- Tên nhóm: Unicorn
+- Mã thành viên (ba chữ số): 143, 180
+- Người điều phối: Hoàng Thu Hương
 - Người review bản cuối:
 - Commit chốt bài (điền ở kênh nộp sau khi commit):
 
