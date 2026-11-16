@@ -47,12 +47,14 @@ trên ảnh đường phố (camera giao thông hoặc xe tự lái).
 | `truck` | Xe tải chở hàng mọi trọng tải; xe bán tải (vừa chở hàng vừa chở người); xe đầu kéo; xe chuyên dụng có cabin và thùng hàng / sàn tải tách rời. | Xe tải chở ô tô, xe tải nhỏ giao hàng thùng hở. | Xe van liền thân kín. |
 | `van` | Ô tô thùng kín liền khối. | Xe thùng kín cỡ 6–9 chỗ. | Xe bus 16 chỗ, xe bán tải, xe con. |
 | `bus` | Xe chở nhiều người: xe buýt, xe khách, xe từ 16 chỗ trở lên. | Xe buýt nội thành, xe khách đường dài, xe 16 chỗ. | Xe van thùng kín 6–9 chỗ, xe con 4–9 chỗ, xe tải chở hàng. |
-| `tuk_tuk` | Xe ba bánh | Xe ba gác, tuk tuk | Xe xích lô, xe máy, xe đạp |
-| `motorcycle` | Phương tiện hai bánh chạy bằng động cơ: xe máy số, xe tay ga, mô tô phân khối lớn. | Xe máy số, xe tay ga lưu thông trên đường, xe máy chở hàng cồng kềnh. | Xe đạp, xích lô chạy bằng sức người. |
+| `tuk_tuk` | Xe ba bánh có **khoang khách ngồi** với mui che, thiết kế để chở người (tuk tuk, xe ba gác chở khách). | Xe ba gác có khoang khách kín hoặc mui che; tuk tuk. | Xe ba bánh có sàn tải/thùng hàng; xe xích lô; xe máy; xe đạp. |
+| `xe_3_banh` | Xe ba bánh có **sàn tải hoặc thùng hàng**, thiết kế để chở hàng. Phân loại dựa trên **thiết kế thân xe**, không phải hàng hóa hiện đang chở. | Xe ba bánh chở hàng, có sàn tải hoặc thùng hàng phía sau cabin (`img_035`). | Xe ba bánh có khoang khách ngồi (`tuk_tuk`). |
+| `motorcycle` | Phương tiện hai bánh chạy bằng động cơ: xe máy số, xe tay ga, mô tô phân khối lớn. | Xe máy số, xe tay ga lưu thông trên đường, xe máy chở hàng cồng kềnh. | Xe đạp, xích lô chạy bằng sức người; mô tô gắn thùng phụ bên hông cố định (`side_car`). |
+| `side_car` | Mô tô hai bánh gắn **thùng phụ bên hông** cố định vào khung (sidecar). Cả mô tô và thùng phụ là **một** phương tiện → gán **một** box bao trùm cả hai. | Mô tô cổ gắn thùng phụ bên hông (`img_022`). | Mô tô không thùng phụ (`motorcycle`); xe ba bánh đóng khung liền (`tuk_tuk`, `xe_3_banh`) |
 | `bicycle` | Phương tiện thô sơ hai bánh chạy bằng sức người. | Xe đạp. | Xe máy, xe gắn máy. |
 | `street_vendor` | Gánh hàng rong hoặc xe đạp chở sạp hàng rong. | Xe đạp chở sạp hàng; người gánh sạp hàng. | Người đi bộ thuần túy. |
 | `dynamic_person` | Người đang di chuyển. | Người đi bộ đang tham gia giao thông: trên vỉa hè, lòng đường, vạch sang đường. | Người đang ngồi hoặc đứng yên. |
-| `static_person` | Người không tham gia giao thông. | Người đang ngồi, không ở phần đường dành cho xe cộ. | Người gánh hàng rong; người đang đi. |
+| `static_person` | Người **không có khả năng di chuyển đột ngột**: đang ngồi hoặc đứng yên, kể cả khi ở lòng đường (ví dụ người ngồi trên xe máy đỗ). | Người đang ngồi, không ở phần đường dành cho xe cộ. | Người gánh hàng rong; người đang đi. |
 | `moto_rider` | Người điều khiển phương tiện gắn máy. | Người đang điều khiển xe máy. | Người đi bộ. |
 | `bicycle_rider` | Người điều khiển xe đạp / xe thô sơ. | Người đang điều khiển xe đạp. | Người đi bộ. |
 | `ignore_region` | Vùng bỏ qua: không gán từng vật bên trong; bỏ sót trong vùng này **không tính là lỗi**. | Đám đông dày đặc không tách nổi box; cụm vật cao `< 20 px`; vùng đã xét nhưng chủ ý không gán (tượng, hình in, ảnh phản chiếu) khi cần ghi nhận có chủ ý. | Một người / một phương tiện thật đứng riêng lẻ. |
@@ -85,7 +87,8 @@ Mọi tranh luận về sau phải dẫn được **mã quy tắc** dưới đâ
 | **R-05** | Vật chồng lấn / bị che: gán `occluded_level` theo §2.2. Vật bị cắt ở mép ảnh: `truncated=yes`. |
 | **R-06** | Vật có **chiều cao `< 20 px`** không gán box riêng. Nếu cả cụm nhỏ như vậy nằm gọn trong một vùng → một box `ignore_region`. |
 | **R-07** | **Không gán ego vehicle:** nắp capo, gương chiếu hậu, phần thân xe chở camera xuất hiện ở viền khung hình không được gán nhãn phương tiện tham gia giao thông. |
-| **R-08** | Người **đang điều khiển** xe máy / xe đạp gán lớp `moto_rider` / `bicycle_rider` — không gán thêm `dynamic_person` cho cùng một người. Người ngồi trên xe nhưng **đứng yên** gán `static_person` (xem ca `img_003`). |
+| **R-08** | Người **đang điều khiển** xe máy / xe đạp gán lớp `moto_rider` / `bicycle_rider` — không gán thêm `dynamic_person` cho cùng một Người. Người ngồi trên xe nhưng **đứng yên** hoặc **không có khả năng di chuyển đột ngột** gán `static_person` (xem ca `img_003`). |
+| **R-09** | **Mô tô gắn thùng phụ (sidecar):** Cả mô tô và thùng phụ gắn cố định là **một** phương tiện → gán **một** box `side_car`. Không tách thành 2 box (`motorcycle` + phụ tiện riêng). Người điều khiển gán `moto_rider`, người ngồi trong thùng phụ gán `static_person`. |
 
 ---
 
@@ -95,6 +98,8 @@ Mọi tranh luận về sau phải dẫn được **mã quy tắc** dưới đâ
 | --- | --- | --- | --- | --- |
 | `img_003` | Có người ngồi trên xe máy nhưng không di chuyển, vừa đỗ trên vỉa hè, vừa đỗ dưới lòng đường. | R-08 | Gán `static_person` | Vật thể này đang không di chuyển và cũng sẽ không bất ngờ di chuyển. |
 | `img_003` | Hai người bán hàng rong, một người ở trên vỉa hè, một người ở dưới lòng đường. | R-04 | Gán 2 lớp: `dynamic_person` cho người và `street_vendor` cho gánh hàng người đó sử dụng. | Phân biệt phương tiện đặc biệt với người tham gia giao thông. |
+| `img_022` | Mô tô cổ gắn thùng phụ bên hông (sidecar), có người ngồi trong thùng phụ. | R-09 | Gán **1** box `side_car` bao trùm cả mô tô và thùng phụ; người điều khiển gán `moto_rider`, người ngồi trong thùng phụ gán `static_person` | Thùng phụ gắn cố định vào khung mô tô nên là một phương tiện, không tách thành 2 box; cũng không phải xe ba bánh đóng khung liền |
+| `img_035` | Xe ba bánh màu vàng chất đầy bao tải trên nóc và sau thân xe. | R-08, R-05 | Gán `xe_3_banh` ôm sát thân xe, **không** gộp khối bao tải; `occluded_level=2` | Sau cabin tài xế là sàn tải chở hàng, không có khoang khách → xe chở hàng |
 
 > Chưa chốt được: tick `can_review` trên box hoặc ghi vấn đề cấp ảnh. Mọi ca mới phát sinh khi gán phải được
 > bổ sung vào bảng này kèm mã quy tắc, trước khi tính IAA.
@@ -102,6 +107,8 @@ Mọi tranh luận về sau phải dẫn được **mã quy tắc** dưới đâ
 ---
 
 ## 5. QC và phiên bản
+
+- **Cảnh báo thay đổi taxonomy:** việc bổ sung `xe_3_banh` và `side_car` làm thay đổi lớp và định nghĩa ranh giới nhãn. Trước khi áp dụng cho lượt gán chính thức, hãy tăng phiên bản guideline và `submission/taxonomy.json` đồng bộ, sau đó chạy `python scripts/make_cvat_labels.py`. Nếu đây là cập nhật sau khi đã khóa v1.0, ghi nhận thành phiên bản mới (ví dụ v1.1), không âm thầm thay đổi v1.0.
 
 - Mọi thay đổi **làm đổi nhãn** (thêm / bớt lớp, đổi định nghĩa ranh giới, đổi giá trị thuộc tính) đều phải **tăng phiên bản** guideline và `taxonomy.json`, rồi chạy lại `python scripts/make_cvat_labels.py`.
 - Sửa câu chữ không đổi cách gán → ghi `"kind": "editorial"` trong `submission/guideline_change.json`; đổi nghĩa → `"semantic"`.
@@ -125,4 +132,4 @@ Mọi tranh luận về sau phải dẫn được **mã quy tắc** dưới đâ
 | Phiên bản | Ngày | Thay đổi |
 | --- | --- | --- |
 | `v0` | — | Bản khởi đầu do giảng viên cung cấp (5 lớp + `ignore_region`). |
-| `v1.0` | 2026-11-16 | Nhóm thống nhất 11 lớp + `ignore_region`|
+| `v1.0` | 2026-11-16 | Nhóm thống nhất 14 lớp + `ignore_region` (thêm `tuk_tuk`, `xe_3_banh`, `side_car` so với v0); làm kín ngưỡng `occluded_level` (1–30 / 31–70 / ≥71); định nghĩa `static_person` theo khả năng di chuyển đột ngột; bổ sung R-08, R-09 và ca khó `img_003`, `img_022`, `img_035`. |
