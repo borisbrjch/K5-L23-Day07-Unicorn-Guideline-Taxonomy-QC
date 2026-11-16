@@ -5,6 +5,7 @@
     {"name": "car", "definition": "Ô tô con 4-9 chỗ chở người: sedan, hatchback, SUV. Không gồm xe chở hàng, xe bus 16 chỗ, xe bán tải chở hàng, van thùng kín, xe mô hình."},
     {"name": "truck", "definition": "Xe tải chở hàng mọi trọng tải; xe bán tải vừa chở hàng vừa chở người; xe đầu kéo; xe chuyên dụng có cabin và thùng hàng/sàn tải tách rời. Không gồm van liền thân kín."},
     {"name": "van", "definition": "Ô tô thùng kín liền khối, cỡ 6-9 chỗ. Không gồm xe bus 16 chỗ, xe bán tải, xe con."},
+    {"name": "bus", "definition": "Xe chở nhiều người: xe buýt, xe khách, xe từ 16 chỗ trở lên. Không gồm van thùng kín 6-9 chỗ, xe con 4-9 chỗ, xe tải chở hàng."},
     {"name": "motorcycle", "definition": "Phương tiện hai bánh chạy bằng động cơ: xe máy số, xe tay ga, mô tô phân khối lớn. Không gồm xe đạp, xích lô chạy bằng sức người."},
     {"name": "bicycle", "definition": "Phương tiện thô sơ hai bánh chạy bằng sức người, ví dụ xe đạp. Không gồm xe máy, xe gắn máy."},
     {"name": "street_vendor", "definition": "Gánh hàng rong hoặc xe đạp chở sạp hàng rong. Không gồm người đi bộ thuần túy."},
