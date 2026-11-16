@@ -47,6 +47,7 @@ trên ảnh đường phố (camera giao thông hoặc xe tự lái).
 | `truck` | Xe tải chở hàng mọi trọng tải; xe bán tải (vừa chở hàng vừa chở người); xe đầu kéo; xe chuyên dụng có cabin và thùng hàng / sàn tải tách rời. | Xe tải chở ô tô, xe tải nhỏ giao hàng thùng hở. | Xe van liền thân kín. |
 | `van` | Ô tô thùng kín liền khối. | Xe thùng kín cỡ 6–9 chỗ. | Xe bus 16 chỗ, xe bán tải, xe con. |
 | `bus` | Xe chở nhiều người: xe buýt, xe khách, xe từ 16 chỗ trở lên. | Xe buýt nội thành, xe khách đường dài, xe 16 chỗ. | Xe van thùng kín 6–9 chỗ, xe con 4–9 chỗ, xe tải chở hàng. |
+| `tuk_tuk` | Xe ba bánh | Xe ba gác, tuk tuk | Xe xích lô, xe máy, xe đạp |
 | `motorcycle` | Phương tiện hai bánh chạy bằng động cơ: xe máy số, xe tay ga, mô tô phân khối lớn. | Xe máy số, xe tay ga lưu thông trên đường, xe máy chở hàng cồng kềnh. | Xe đạp, xích lô chạy bằng sức người. |
 | `bicycle` | Phương tiện thô sơ hai bánh chạy bằng sức người. | Xe đạp. | Xe máy, xe gắn máy. |
 | `street_vendor` | Gánh hàng rong hoặc xe đạp chở sạp hàng rong. | Xe đạp chở sạp hàng; người gánh sạp hàng. | Người đi bộ thuần túy. |
