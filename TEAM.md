@@ -8,9 +8,9 @@
 
 ## Kết quả tóm tắt (điền cuối bài)
 
-- Lượt gán hoàn tất / được giao: 80/80 lượt nộp; chỉ 40/80 (của 143) là gán thủ công hợp lệ — 180 dùng AI để gán, trái RULES.md
-- IAA trước calibration (kèm mẫu số): IoU TB 0.836, cùng lớp 62.2% trên 283 cặp box ghép (143|180) — chưa đạt, chỉ tham khảo vì nhãn 180 do AI gán
+- Lượt gán hoàn tất / được giao: 80/80 lượt nộp; 143 gán tay 40/40, 180 pre-label bằng AI rồi chỉnh tay 40/40 (lệch RULES.md: pre-label thuộc Day 08)
+- IAA trước calibration (kèm mẫu số): IoU TB 0.836, cùng lớp 62.2% trên 283 cặp box ghép (143|180) — chưa đạt, chỉ tham khảo vì nhãn 180 xuất phát từ pre-label AI
 - Số ảnh phải calibration: 40 / 40
 - Vòng QC và số ảnh đã duyệt / cả lô: chưa chạy vòng QC, 0/40 (chưa có nhãn sau calibration)
 - Tỉ lệ lỗi: chưa đo — chưa có vòng QC
-- **Quyết định** (Release / Hold / Rework) và lý do một dòng: Hold — thiếu lượt gán thủ công của 180 và nhãn sau calibration; chi tiết và người xử lý trong `submission/qc/QC_REPORT.md` §5
+- **Quyết định** (Release / Hold / Rework) và lý do một dòng: Hold — chưa có nhãn sau calibration và vòng QC; lượt 180 dùng pre-label AI; chi tiết và người xử lý trong `submission/qc/QC_REPORT.md` §5
