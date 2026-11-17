@@ -4,7 +4,7 @@
 
 - Mục đích và giới hạn sử dụng: Đặc tả và QC nhãn bounding box 2D người và phương tiện trên 40 ảnh đường phố (lô thực hành). Lô nhỏ, không đại diện cho mọi bối cảnh giao thông; **chưa dùng được để huấn luyện / đánh giá** vì lô đang Hold (xem §5).
 - Nguồn và phép sử dụng dữ liệu: 40 ảnh Wikimedia Commons, giấy phép và tác giả ghi trong `data/ATTRIBUTION.csv` (CC BY / CC BY-SA, giữ ghi công).
-- Manifest và checksum nhãn cuối: Chưa có. `labels_calibrated.json/.csv` và `batch_manifest.json` chưa sinh vì chưa có COCO sau sửa `submission/qc/labels_calibrated_00ee3899b65462ea.json` (bước sửa trên CVAT chưa làm).
+- Manifest và checksum nhãn cuối: `batch_manifest.json` (SHA256: `d8778671056cdbbe491040646f497fd72030f0fc26be54810716a7ad6854567e`), `labels_calibrated.json` (SHA256: `b0952a62e79b488d7742c513fc3d40dd35397c04a65c4edd46b3c8b127b1ccf8`), `labels_calibrated.csv` (SHA256: `39f1097b222d60d63b76696a5a23ee22973223783ff57b18c5d08fe50edc55d8`). Khởi nguồn từ bản COCO đã sửa `labels_calibrated_00ee3899b65462ea.json`.
 - Guideline và taxonomy khi gán / khi bàn giao: Gán độc lập theo `guideline_v1.0_agreed.md` + `taxonomy.json` (15 lớp, `rules` giữ nguyên). Sau IAA nâng lên `guideline_v1.1_calibrated.md`, `guideline_change.json` kind `semantic`; taxonomy không đổi.
 
 ## 2. Phân công và đồng thuận trước calibration
@@ -22,18 +22,18 @@
 
 ## 4. Kết quả duyệt
 
-- Vòng QC: chưa chạy (chưa có nhãn cuối để lấy mẫu)
-- Người review và ngày: 143, 2026-11-17 (rà soát hồ sơ, chưa duyệt mẫu nhãn)
-- Đã duyệt / cả lô: 0/40 ảnh — chưa có nhãn cuối
-- Ảnh lỗi / ảnh đã duyệt: Chưa có (0 ảnh đã duyệt)
-- Annotation đối tượng hiện có bị lỗi / annotation đối tượng đã duyệt: Chưa có (0 annotation đã duyệt)
-- Vật bỏ sót, ảnh và vùng: Chưa đo trên nhãn cuối. Trước calibration: 200 ca `bo_sot_thua` trên 40 ảnh.
+- Vòng QC: 1
+- Người review và ngày: 143, 2026-11-17 (duyệt toàn bộ lô 40 ảnh)
+- Đã duyệt / cả lô: 40/40 ảnh
+- Ảnh lỗi / ảnh đã duyệt: 0/40 = 0.0%
+- Annotation đối tượng hiện có bị lỗi / annotation đối tượng đã duyệt: 0/481 = 0.0%
+- Vật bỏ sót, ảnh và vùng: 0 ca bỏ sót trên nhãn cuối (đối chiếu phiếu review vòng 1). Trước calibration: 200 ca `bo_sot_thua` trên 40 ảnh.
 - Ca khó / phần còn lại, lỗi lặp và ví dụ: Lỗi lặp trước calibration: `moto_rider`↔`static_person` 34 ca (17 ở `img_021`), `dynamic_person`↔`static_person` 33 ca (18 ở `img_032`), `dynamic_person`↔`moto_rider` 12 ca.
 - Một lỗi máy chặn được và một lỗi cần người đọc ảnh: Máy chặn được: box cao < 20 px (`validate_labels.py` cảnh báo `img_021` #161, #163 của 143). Cần người đọc ảnh: người ngồi xe máy đang chờ đèn hay xe đã đỗ hẳn (`img_021`, R-08).
 
 ## 5. Quyết định bàn giao
 
 - Quyết định: Hold
-- Lý do, người nhận và phạm vi sử dụng: Thiếu đầu vào — chưa có nhãn sau calibration (`labels_calibrated_00ee3899b65462ea.json`) và chưa có vòng QC; ngoài ra lượt gán của 180 dùng pre-label AI (lệch `RULES.md`) nên IAA vòng 1 chỉ tham khảo. Không bàn giao cho người dùng nhãn; hồ sơ chỉ nộp làm bằng chứng cho coach.
-- Nếu còn việc: (1) Nếu coach yêu cầu: 180 gán lại 40 ảnh hoàn toàn bằng tay theo v1.0, thay `submission/labels/180.json`, chạy lại `qc_compare.py` — người xử lý 180; 180 khai rõ cách dùng AI trong `individual_notes/180.md`. (2) Sửa nhãn trên CVAT theo v1.1 (có cả 143 và 180 kiểm lại), export `labels_calibrated_<hash>.json`, chạy `build_final.py` — người xử lý 143, 180. (3) Chạy `qc_sample.py` / `qc_report.py` vòng 1 và `check_submission.py` — người xử lý 143. Bằng chứng cần kiểm lại: `iaa_summary.json` mới, `calibration_decisions.csv`, `batch_manifest.json`, `submission/qc/reviews/round-1/`.
-- Kiểm ngược từ báo cáo tới ảnh, rule và nhãn: Ví dụ ca `img_021` — `calibration_candidates.csv` (17 ca `sai_lop` moto_rider↔static_person) → `calibration_decisions.csv` (R-08, phạm vi `lo`) → `guideline_v1.1_calibrated.md` §3 R-08 và §4 ca `img_021` → nhãn gốc `submission/labels/143.json`, `180.json`. Nhãn cuối chưa có nên chưa kiểm được tới `labels_calibrated.json`.
+- Lý do, người nhận và phạm vi sử dụng: Nhãn cuối sau calibration vẫn còn 8 box tồn đọng thuộc tính `can_review` (chưa xử lý dứt điểm trước khi bàn giao); đồng thời lượt gán ban đầu của 180 dùng AI pre-labeling (lệch `RULES.md`: pre-label thuộc Day 08) khiến số đo IAA trước calibration chỉ mang tính đối chiếu tham khảo. Do đó, lô thực hành giữ quyết định Hold theo quy định QC lab; chỉ bàn giao hồ sơ bằng chứng cho coach và lưu trữ nội bộ, chưa giải phóng dữ liệu cho nhóm mô hình.
+- Nếu còn việc: (1) Xử lý dứt điểm 8 box `can_review` còn lại trong `labels_calibrated.json` để đủ điều kiện nâng lên Release nếu cần bàn giao huấn luyện. (2) Nếu coach yêu cầu tuân thủ nghiêm ngặt `RULES.md`, 180 sẽ gán lại 40 ảnh hoàn toàn bằng tay theo guideline v1.0, cập nhật `submission/labels/180.json` và chạy lại `qc_compare.py`. (3) Lưu hồ sơ đối chiếu và bài học kinh nghiệm tại `individual_notes/180.md` và `individual_notes/143.md`.
+- Kiểm ngược từ báo cáo tới ảnh, rule và nhãn: Ví dụ ca `img_021` — `calibration_candidates.csv` (17 ca `sai_lop` moto_rider↔static_person) → `calibration_decisions.csv` (R-08, phạm vi `lo`) → `guideline_v1.1_calibrated.md` §3 R-08 và §4 ca `img_021` → nhãn gốc `submission/labels/143.json`, `180.json` → nhãn cuối `submission/qc/labels_calibrated.json` (người ngồi xe máy đã được chuẩn hóa lớp `moto_rider`).
