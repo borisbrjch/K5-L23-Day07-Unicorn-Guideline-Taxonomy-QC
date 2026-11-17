@@ -16,7 +16,7 @@
     "submission/guidelines/guideline_v1.0_agreed.md": "098326d621461a9933bf1bd4012727812a03cecbfab817eb191a8dcbc5ac4a08",
     "submission/qc/assignment.csv": "a5fdad90779ae3aa2ae5173348ac27505cae357b2f69a404afaaa7b4d37f2598",
     "submission/labels/143.json": "83d025d1f563ca067971a71caed89337644ed012cdb6943f48409d8c41263528",
-    "submission/labels/180.json": "3ff34c58bff562c8dd0d112045f8b94c26f2382aed95e4deaf0a7ae6b47c6270",
+    "submission/labels/180.json": "6bb5240695908e11da9c3d2e2b83ad40ad5ab1ec67e39b3eb2479ac55122c119",
     "data/images/img_001.jpg": "74b15d37b53d99d6cb8b3f7648d064ff89fedf0662df5ca1594c2c9c8454ba88",
     "data/images/img_002.jpg": "7cfa98eb24c504aa15496a82a714e28cc318447d77d0cb3881f91d649374d3de",
     "data/images/img_003.jpg": "8c2682682b89753bfa9de78b9dea93abb91937d2baed53fbf8c9fce6aa6a604a",
@@ -59,9 +59,9 @@
     "data/images/img_040.jpg": "e16ee9a3cfe6ea33457e7562b7f7d5bea9f63eee5cce42180ba25282dc004e95"
   },
   "artifacts": {
-    "consensus_draft.json": "8591b14f3f7eb9223e37ba9862cac4f552b110a13e6b8d8f9c7cf4c84efd06fc",
-    "flagged_images.txt": "8789fa0f318d8777b73dcb6224d80edd600440c330fe2dc99b9b5e74ecf9bd7c",
-    "calibration_candidates.csv": "c77084e9a64731f24200f846993e65577ea777de6f61b84ef83d5174e3b4dc1a"
+    "consensus_draft.json": "b5e569199aa9dae1083c0f69cd61dc976101bb39d91771cb5eaaae5d570a0e4e",
+    "flagged_images.txt": "d7d2a0af54483341b8aa056069c2012dd629a4a22dae9c8c38ca0d8d9061cbba",
+    "calibration_candidates.csv": "87b50caf446d75da26d6ab567c65f36cf2e67cce09b7cbb12e256fb90e98221d"
   },
   "overall": {
     "n_images": 40,
@@ -72,7 +72,7 @@
     "mean_iou": 0.8355237862260401,
     "class_agreement": 0.6219081272084805,
     "attr_agreement": {
-      "occluded_level": 0.6395759717314488,
+      "occluded_level": 0.6501766784452296,
       "truncated": 0.9575971731448764
     },
     "n_below_iou_thr": 117,
@@ -90,7 +90,7 @@
       "mean_iou": 0.8355237862260401,
       "class_agreement": 0.6219081272084805,
       "attr_agreement": {
-        "occluded_level": 0.6395759717314488,
+        "occluded_level": 0.6501766784452296,
         "truncated": 0.9575971731448764
       },
       "n_below_iou_thr": 117,
@@ -99,11 +99,11 @@
       "pass": false
     }
   },
-  "n_issues": 546,
+  "n_issues": 543,
   "issues_by_type": {
     "bo_sot_thua": 200,
     "iou_thap": 117,
-    "sai_thuoc_tinh": 108,
+    "sai_thuoc_tinh": 105,
     "sai_lop": 107,
     "co_can_review": 9,
     "bat_dong_ignore": 5
