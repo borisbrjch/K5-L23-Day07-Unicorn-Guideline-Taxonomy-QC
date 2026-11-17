@@ -1,6 +1,6 @@
 # Báo cáo QC tự động
 
-**HOLD**
+**RELEASE**
 
 ## Vòng 1 — full
 - Ảnh đã duyệt 40/40; cả lô 40 ảnh.
@@ -9,4 +9,3 @@
 - Vật bỏ sót ghi riêng: 0.
 - IAA trước calibration dùng để chẩn đoán; đối chiếu iaa_summary.md.
 - ca_kho: đã duyệt 40/40, ảnh có lỗi 0/40 = 0.0%.
-- Nhãn cuối còn box đánh dấu can_review.

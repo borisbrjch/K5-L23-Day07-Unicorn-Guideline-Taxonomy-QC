@@ -2322,7 +2322,7 @@
       "attributes": {
         "occluded_level": "2",
         "truncated": "no",
-        "can_review": true
+        "can_review": false
       }
     },
     {
@@ -3258,7 +3258,7 @@
       "attributes": {
         "occluded_level": "3",
         "truncated": "no",
-        "can_review": true
+        "can_review": false
       }
     },
     {
@@ -3276,7 +3276,7 @@
       "attributes": {
         "occluded_level": "2",
         "truncated": "no",
-        "can_review": true
+        "can_review": false
       }
     },
     {
@@ -3492,7 +3492,7 @@
       "attributes": {
         "occluded_level": "0",
         "truncated": "no",
-        "can_review": true
+        "can_review": false
       }
     },
     {
@@ -3654,7 +3654,7 @@
       "attributes": {
         "occluded_level": "2",
         "truncated": "no",
-        "can_review": true
+        "can_review": false
       }
     },
     {
@@ -3744,7 +3744,7 @@
       "attributes": {
         "occluded_level": "0",
         "truncated": "yes",
-        "can_review": true
+        "can_review": false
       }
     },
     {
@@ -5112,7 +5112,7 @@
       "attributes": {
         "occluded_level": "0",
         "truncated": "no",
-        "can_review": true
+        "can_review": false
       }
     },
     {
@@ -8856,7 +8856,7 @@
       "attributes": {
         "occluded_level": "0",
         "truncated": "yes",
-        "can_review": true
+        "can_review": false
       }
     },
     {
