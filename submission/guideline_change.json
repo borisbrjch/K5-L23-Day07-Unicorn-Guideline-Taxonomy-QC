@@ -1,0 +1,4 @@
+{
+  "kind": "semantic",
+  "summary": "Sửa cách chọn lớp và box: R-02 bỏ ignore_region cho vật không thật; R-08 người lái xe tạm dừng trong dòng xe = moto_rider, người cưỡi xe = 2 box người + xe; thêm R-10 (đứng yên vs đang bước), R-11 (cách ước occluded_level/truncated), R-12 (phương tiện đặc thù); bicycle gồm xích lô; đổi ca img_035 sang tuk_tuk. Taxonomy không đổi. Phạm vi kiểm lại: cả lô 40 ảnh."
+}
