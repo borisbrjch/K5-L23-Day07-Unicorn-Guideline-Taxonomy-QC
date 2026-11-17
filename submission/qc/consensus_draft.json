@@ -356,18 +356,18 @@
    "image_id": 1,
    "category_id": 12,
    "bbox": [
-    388.5,
-    115.78,
-    143.89,
-    203.5
+    390.78,
+    116.2,
+    141.23,
+    202.9
    ],
-   "area": 29281.61,
+   "area": 28655.57,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -394,12 +394,12 @@
    "image_id": 1,
    "category_id": 12,
    "bbox": [
-    220.7,
-    99.78,
-    104.25,
-    165.25
+    221.11,
+    102.13,
+    104.31,
+    168.43
    ],
-   "area": 17227.31,
+   "area": 17568.93,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -451,12 +451,12 @@
    "image_id": 1,
    "category_id": 12,
    "bbox": [
-    114.55,
-    110.42,
-    117.1,
-    302.45
+    115.88,
+    109.34,
+    116.17,
+    298.48
    ],
-   "area": 35416.89,
+   "area": 34674.42,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -470,18 +470,18 @@
    "image_id": 1,
    "category_id": 2,
    "bbox": [
-    281.7,
-    97.12,
-    675.98,
-    539.88
+    268.68,
+    97.15,
+    688.69,
+    540.58
    ],
-   "area": 364948.08,
+   "area": 372292.04,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
     "truncated": "yes",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -527,12 +527,12 @@
    "image_id": 2,
    "category_id": 1,
    "bbox": [
-    723.87,
-    275.03,
-    100.11,
-    116.1
+    723.84,
+    277.44,
+    101.58,
+    113.25
    ],
-   "area": 11622.77,
+   "area": 11503.93,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -546,12 +546,12 @@
    "image_id": 2,
    "category_id": 11,
    "bbox": [
-    857.23,
-    312.63,
-    35.37,
-    113.82
+    856.81,
+    312.3,
+    36.17,
+    114.5
    ],
-   "area": 4025.81,
+   "area": 4141.47,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -565,18 +565,18 @@
    "image_id": 2,
    "category_id": 2,
    "bbox": [
-    133.5,
-    92.57,
-    761.02,
-    444.28
+    133.62,
+    82.15,
+    762.71,
+    454.67
    ],
-   "area": 338105.97,
+   "area": 346781.36,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -641,12 +641,12 @@
    "image_id": 2,
    "category_id": 1,
    "bbox": [
-    476.54,
-    88.06,
-    157.4,
-    130.03
+    475.48,
+    88.31,
+    160.37,
+    130.28
    ],
-   "area": 20466.72,
+   "area": 20893.0,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -679,12 +679,12 @@
    "image_id": 2,
    "category_id": 1,
    "bbox": [
-    506.46,
-    253.3,
-    91.03,
-    128.57
+    500.57,
+    253.37,
+    97.04,
+    128.23
    ],
-   "area": 11703.73,
+   "area": 12443.44,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -698,12 +698,12 @@
    "image_id": 2,
    "category_id": 1,
    "bbox": [
-    557.69,
-    246.2,
-    156.55,
-    120.13
+    560.74,
+    246.73,
+    155.49,
+    119.44
    ],
-   "area": 18806.35,
+   "area": 18571.73,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -810,7 +810,7 @@
   {
    "id": 25,
    "image_id": 3,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     82.28,
     0.91,
@@ -829,7 +829,7 @@
   {
    "id": 26,
    "image_id": 3,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     231.38,
     63.43,
@@ -842,20 +842,20 @@
     "occluded_level": "2",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 27,
    "image_id": 3,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    465.65,
-    47.09,
-    93.38,
-    166.3
+    465.57,
+    45.19,
+    94.68,
+    169.5
    ],
-   "area": 15529.09,
+   "area": 16048.26,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -907,12 +907,12 @@
    "image_id": 3,
    "category_id": 7,
    "bbox": [
-    244.99,
-    122.0,
-    173.08,
-    269.93
+    245.95,
+    121.52,
+    171.89,
+    277.84
    ],
-   "area": 46719.48,
+   "area": 47757.92,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -926,18 +926,18 @@
    "image_id": 3,
    "category_id": 7,
    "bbox": [
-    739.85,
-    38.23,
-    85.85,
-    134.38
+    739.57,
+    37.09,
+    87.01,
+    135.44
    ],
-   "area": 11536.52,
+   "area": 11784.63,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -1401,12 +1401,12 @@
    "image_id": 4,
    "category_id": 12,
    "bbox": [
-    581.38,
-    151.19,
-    93.57,
-    199.05
+    581.95,
+    151.47,
+    95.15,
+    198.83
    ],
-   "area": 18625.11,
+   "area": 18918.67,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -1477,12 +1477,12 @@
    "image_id": 5,
    "category_id": 13,
    "bbox": [
-    316.96,
-    116.69,
-    231.53,
-    519.37
+    317.43,
+    116.37,
+    236.22,
+    519.93
    ],
-   "area": 120249.74,
+   "area": 122817.86,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -1515,12 +1515,12 @@
    "image_id": 5,
    "category_id": 11,
    "bbox": [
-    613.86,
-    43.55,
-    102.28,
-    115.95
+    612.38,
+    43.2,
+    104.03,
+    117.38
    ],
-   "area": 11859.37,
+   "area": 12211.04,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "3",
@@ -1743,12 +1743,12 @@
    "image_id": 6,
    "category_id": 14,
    "bbox": [
-    293.25,
-    175.78,
-    23.9,
-    52.96
+    292.83,
+    175.72,
+    24.36,
+    54.16
    ],
-   "area": 1265.74,
+   "area": 1319.34,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -1773,7 +1773,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -1792,7 +1792,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -1819,12 +1819,12 @@
    "image_id": 6,
    "category_id": 9,
    "bbox": [
-    693.81,
-    261.65,
-    53.02,
-    128.56
+    693.04,
+    259.88,
+    53.99,
+    130.38
    ],
-   "area": 6816.25,
+   "area": 7039.22,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -1838,12 +1838,12 @@
    "image_id": 6,
    "category_id": 9,
    "bbox": [
-    764.41,
-    318.62,
-    114.64,
-    219.64
+    767.39,
+    317.81,
+    110.0,
+    220.75
    ],
-   "area": 25179.53,
+   "area": 24282.5,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -1857,12 +1857,12 @@
    "image_id": 6,
    "category_id": 9,
    "bbox": [
-    860.31,
-    239.81,
-    88.44,
-    160.56
+    860.38,
+    240.0,
+    90.46,
+    161.18
    ],
-   "area": 14199.93,
+   "area": 14580.34,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -1876,12 +1876,12 @@
    "image_id": 6,
    "category_id": 13,
    "bbox": [
-    148.66,
-    93.22,
-    133.04,
-    189.38
+    153.01,
+    93.03,
+    128.43,
+    188.79
    ],
-   "area": 25195.12,
+   "area": 24246.3,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -1906,13 +1906,13 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 83,
    "image_id": 6,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
     569.18,
     122.84,
@@ -1925,7 +1925,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -1990,12 +1990,12 @@
    "image_id": 6,
    "category_id": 7,
    "bbox": [
-    596.85,
-    238.47,
-    141.59,
-    236.03
+    593.69,
+    226.82,
+    145.57,
+    247.8
    ],
-   "area": 33419.49,
+   "area": 36072.25,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2292,7 +2292,7 @@
   {
    "id": 103,
    "image_id": 8,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     195.56,
     181.0,
@@ -2311,33 +2311,33 @@
   {
    "id": 104,
    "image_id": 8,
-   "category_id": 2,
+   "category_id": 6,
    "bbox": [
-    623.16,
-    160.18,
-    130.71,
-    122.19
+    624.34,
+    160.23,
+    129.98,
+    123.35
    ],
-   "area": 15971.45,
+   "area": 16033.03,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 105,
    "image_id": 8,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    542.84,
-    195.01,
-    33.87,
-    60.79
+    542.56,
+    194.53,
+    34.8,
+    61.7
    ],
-   "area": 2058.96,
+   "area": 2147.16,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -2351,18 +2351,18 @@
    "image_id": 8,
    "category_id": 12,
    "bbox": [
-    497.92,
-    195.32,
-    44.38,
-    59.59
+    497.18,
+    195.39,
+    44.95,
+    59.74
    ],
-   "area": 2644.6,
+   "area": 2685.31,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -2387,14 +2387,14 @@
   {
    "id": 108,
    "image_id": 8,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    415.75,
-    196.25,
-    34.13,
-    55.9
+    415.69,
+    195.82,
+    34.4,
+    58.03
    ],
-   "area": 1907.87,
+   "area": 1996.23,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -2406,14 +2406,14 @@
   {
    "id": 109,
    "image_id": 8,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    371.44,
-    179.41,
-    49.83,
-    63.09
+    371.31,
+    179.5,
+    50.27,
+    61.92
    ],
-   "area": 3143.77,
+   "area": 3112.72,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -2446,12 +2446,12 @@
    "image_id": 8,
    "category_id": 7,
    "bbox": [
-    304.35,
-    316.06,
-    152.58,
-    246.18
+    303.48,
+    307.43,
+    153.92,
+    255.34
    ],
-   "area": 37562.14,
+   "area": 39301.93,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -2484,12 +2484,12 @@
    "image_id": 8,
    "category_id": 7,
    "bbox": [
-    354.89,
-    258.28,
-    198.93,
-    191.23
+    347.18,
+    260.27,
+    206.59,
+    190.32
    ],
-   "area": 38041.38,
+   "area": 39318.21,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -2560,12 +2560,12 @@
    "image_id": 8,
    "category_id": 7,
    "bbox": [
-    550.83,
-    275.52,
-    365.1,
-    334.21
+    550.31,
+    274.93,
+    355.28,
+    327.87
    ],
-   "area": 122020.07,
+   "area": 116485.65,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2577,14 +2577,14 @@
   {
    "id": 118,
    "image_id": 8,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
-    607.89,
-    152.34,
-    240.97,
-    427.16
+    607.87,
+    152.66,
+    239.28,
+    413.28
    ],
-   "area": 102932.75,
+   "area": 98889.64,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2598,12 +2598,12 @@
    "image_id": 8,
    "category_id": 7,
    "bbox": [
-    1.28,
-    216.64,
-    173.92,
-    194.75
+    1.34,
+    210.8,
+    181.35,
+    200.45
    ],
-   "area": 33870.92,
+   "area": 36351.61,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -2617,12 +2617,12 @@
    "image_id": 8,
    "category_id": 7,
    "bbox": [
-    671.08,
-    246.28,
-    51.71,
-    64.14
+    670.28,
+    249.43,
+    52.69,
+    60.85
    ],
-   "area": 3316.68,
+   "area": 3206.19,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2636,12 +2636,12 @@
    "image_id": 8,
    "category_id": 13,
    "bbox": [
-    668.67,
-    204.04,
-    60.57,
-    82.19
+    668.6,
+    204.53,
+    61.42,
+    80.08
    ],
-   "area": 4978.25,
+   "area": 4918.51,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2655,12 +2655,12 @@
    "image_id": 8,
    "category_id": 7,
    "bbox": [
-    71.56,
-    285.57,
-    311.4,
-    321.51
+    72.18,
+    287.87,
+    310.54,
+    312.75
    ],
-   "area": 100118.21,
+   "area": 97121.39,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2769,12 +2769,12 @@
    "image_id": 9,
    "category_id": 7,
    "bbox": [
-    811.62,
-    458.85,
-    147.88,
-    80.65
+    811.54,
+    455.45,
+    148.08,
+    84.17
    ],
-   "area": 11926.52,
+   "area": 12463.89,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2818,7 +2818,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -2826,12 +2826,12 @@
    "image_id": 9,
    "category_id": 7,
    "bbox": [
-    151.38,
-    443.98,
-    42.24,
-    39.52
+    150.75,
+    444.21,
+    43.02,
+    39.17
    ],
-   "area": 1669.32,
+   "area": 1685.09,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2845,12 +2845,12 @@
    "image_id": 9,
    "category_id": 11,
    "bbox": [
-    310.31,
-    429.81,
-    21.46,
-    43.09
+    310.15,
+    429.76,
+    22.06,
+    43.35
    ],
-   "area": 924.71,
+   "area": 956.3,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -2864,12 +2864,12 @@
    "image_id": 9,
    "category_id": 7,
    "bbox": [
-    864.75,
-    432.3,
-    44.25,
-    51.05
+    864.21,
+    432.13,
+    45.03,
+    51.55
    ],
-   "area": 2258.96,
+   "area": 2321.3,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -3065,7 +3065,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -3090,7 +3090,7 @@
   {
    "id": 145,
    "image_id": 10,
-   "category_id": 9,
+   "category_id": 10,
    "bbox": [
     378.85,
     208.93,
@@ -3103,7 +3103,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -3111,12 +3111,12 @@
    "image_id": 10,
    "category_id": 11,
    "bbox": [
-    305.91,
-    113.92,
-    109.97,
-    387.74
+    305.65,
+    114.14,
+    106.6,
+    385.03
    ],
-   "area": 42639.77,
+   "area": 41044.2,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -3223,14 +3223,14 @@
   {
    "id": 152,
    "image_id": 11,
-   "category_id": 1,
+   "category_id": 3,
    "bbox": [
-    515.41,
-    324.5,
-    120.67,
-    90.12
+    515.28,
+    324.38,
+    123.23,
+    91.83
    ],
-   "area": 10874.78,
+   "area": 11316.21,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -3242,7 +3242,7 @@
   {
    "id": 153,
    "image_id": 11,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     98.16,
     352.87,
@@ -3261,14 +3261,14 @@
   {
    "id": 154,
    "image_id": 11,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    47.54,
-    364.81,
-    61.24,
-    120.45
+    47.19,
+    364.77,
+    62.73,
+    120.8
    ],
-   "area": 7376.36,
+   "area": 7577.78,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -3451,7 +3451,7 @@
   {
    "id": 164,
    "image_id": 12,
-   "category_id": 1,
+   "category_id": 2,
    "bbox": [
     291.17,
     244.18,
@@ -3464,7 +3464,7 @@
     "occluded_level": "0",
     "truncated": "yes",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -3491,12 +3491,12 @@
    "image_id": 12,
    "category_id": 2,
    "bbox": [
-    321.52,
-    204.06,
-    163.88,
-    161.69
+    321.41,
+    203.12,
+    164.57,
+    172.42
    ],
-   "area": 26497.76,
+   "area": 28375.16,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -3510,12 +3510,12 @@
    "image_id": 12,
    "category_id": 1,
    "bbox": [
-    292.44,
-    295.49,
-    35.41,
-    30.1
+    291.83,
+    295.36,
+    37.19,
+    30.37
    ],
-   "area": 1065.84,
+   "area": 1129.46,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -3548,18 +3548,18 @@
    "image_id": 13,
    "category_id": 1,
    "bbox": [
-    268.91,
-    416.93,
-    58.9,
-    27.29
+    266.74,
+    416.67,
+    61.27,
+    27.59
    ],
-   "area": 1607.38,
+   "area": 1690.44,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -3567,18 +3567,18 @@
    "image_id": 13,
    "category_id": 1,
    "bbox": [
-    239.72,
-    419.28,
-    41.67,
-    22.73
+    239.42,
+    418.62,
+    42.08,
+    23.14
    ],
-   "area": 947.16,
+   "area": 973.73,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -3643,12 +3643,12 @@
    "image_id": 13,
    "category_id": 7,
    "bbox": [
-    256.04,
-    443.59,
-    52.41,
-    42.69
+    256.53,
+    442.52,
+    52.98,
+    44.06
    ],
-   "area": 2237.38,
+   "area": 2334.3,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -3833,12 +3833,12 @@
    "image_id": 15,
    "category_id": 1,
    "bbox": [
-    445.06,
-    121.03,
-    156.8,
-    83.35
+    447.96,
+    121.04,
+    154.11,
+    83.19
    ],
-   "area": 13069.28,
+   "area": 12820.41,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -3852,12 +3852,12 @@
    "image_id": 15,
    "category_id": 1,
    "bbox": [
-    69.77,
-    123.83,
-    151.2,
-    84.08
+    72.59,
+    123.78,
+    148.61,
+    84.57
    ],
-   "area": 12712.9,
+   "area": 12567.95,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -3910,11 +3910,11 @@
    "category_id": 1,
    "bbox": [
     0.0,
-    113.8,
-    60.22,
-    73.49
+    113.27,
+    60.99,
+    75.29
    ],
-   "area": 4425.57,
+   "area": 4591.94,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4099,12 +4099,12 @@
    "image_id": 16,
    "category_id": 1,
    "bbox": [
-    419.18,
-    305.12,
-    200.56,
-    123.32
+    419.22,
+    304.67,
+    205.75,
+    127.72
    ],
-   "area": 24733.06,
+   "area": 26278.39,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -4176,11 +4176,11 @@
    "category_id": 1,
    "bbox": [
     0.0,
-    529.32,
-    116.83,
-    138.19
+    528.91,
+    116.78,
+    143.51
    ],
-   "area": 16144.74,
+   "area": 16759.1,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4194,12 +4194,12 @@
    "image_id": 18,
    "category_id": 1,
    "bbox": [
-    726.02,
-    542.32,
-    233.6,
-    114.23
+    722.43,
+    542.15,
+    237.1,
+    116.44
    ],
-   "area": 26684.13,
+   "area": 27607.92,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -4213,12 +4213,12 @@
    "image_id": 18,
    "category_id": 1,
    "bbox": [
-    563.09,
-    545.18,
-    279.76,
-    121.23
+    561.91,
+    544.03,
+    281.38,
+    121.76
    ],
-   "area": 33915.3,
+   "area": 34260.83,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4384,12 +4384,12 @@
    "image_id": 21,
    "category_id": 1,
    "bbox": [
-    415.71,
-    220.75,
-    119.75,
-    35.56
+    415.15,
+    220.69,
+    121.37,
+    37.38
    ],
-   "area": 4258.31,
+   "area": 4536.81,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "3",
@@ -4403,12 +4403,12 @@
    "image_id": 21,
    "category_id": 1,
    "bbox": [
-    250.75,
-    236.92,
-    134.7,
-    64.02
+    250.69,
+    236.66,
+    138.71,
+    64.98
    ],
-   "area": 8623.49,
+   "area": 9013.38,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -4423,11 +4423,11 @@
    "category_id": 1,
    "bbox": [
     0.0,
-    231.64,
-    193.88,
-    111.76
+    229.63,
+    200.56,
+    115.78
    ],
-   "area": 21668.03,
+   "area": 23220.84,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -4517,12 +4517,12 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    245.63,
-    327.24,
-    178.5,
-    260.77
+    243.62,
+    326.82,
+    179.57,
+    260.47
    ],
-   "area": 46547.44,
+   "area": 46772.6,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4536,12 +4536,12 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    145.88,
-    320.73,
-    90.26,
-    135.17
+    142.97,
+    319.94,
+    93.44,
+    137.38
    ],
-   "area": 12200.44,
+   "area": 12836.79,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -4612,12 +4612,12 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    255.16,
-    262.53,
-    84.46,
-    98.25
+    254.71,
+    262.41,
+    83.62,
+    97.59
    ],
-   "area": 8298.19,
+   "area": 8160.48,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -4631,12 +4631,12 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    304.81,
-    249.33,
-    38.78,
-    74.23
+    304.52,
+    249.41,
+    39.45,
+    73.56
    ],
-   "area": 2878.64,
+   "area": 2901.94,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4669,12 +4669,12 @@
    "image_id": 21,
    "category_id": 7,
    "bbox": [
-    239.08,
-    540.92,
-    212.22,
-    99.92
+    237.43,
+    544.5,
+    213.94,
+    96.06
    ],
-   "area": 21205.02,
+   "area": 20551.08,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4688,12 +4688,12 @@
    "image_id": 21,
    "category_id": 7,
    "bbox": [
-    267.47,
-    425.81,
-    188.38,
-    160.74
+    270.71,
+    423.6,
+    185.36,
+    161.88
    ],
-   "area": 30280.2,
+   "area": 30006.08,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4726,12 +4726,12 @@
    "image_id": 21,
    "category_id": 7,
    "bbox": [
-    534.59,
-    426.06,
-    185.41,
-    213.78
+    534.25,
+    429.92,
+    186.23,
+    209.89
    ],
-   "area": 39636.95,
+   "area": 39087.81,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4745,12 +4745,12 @@
    "image_id": 21,
    "category_id": 7,
    "bbox": [
-    446.11,
-    345.3,
-    152.15,
-    181.78
+    444.45,
+    343.69,
+    154.82,
+    183.65
    ],
-   "area": 27657.83,
+   "area": 28432.69,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4821,12 +4821,12 @@
    "image_id": 21,
    "category_id": 7,
    "bbox": [
-    793.13,
-    303.81,
-    60.03,
-    64.31
+    792.68,
+    303.76,
+    62.44,
+    64.62
    ],
-   "area": 3860.53,
+   "area": 4034.87,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4840,12 +4840,12 @@
    "image_id": 21,
    "category_id": 7,
    "bbox": [
-    746.62,
-    271.76,
-    41.86,
-    54.7
+    747.01,
+    271.71,
+    41.1,
+    54.88
    ],
-   "area": 2289.74,
+   "area": 2255.57,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4916,12 +4916,12 @@
    "image_id": 21,
    "category_id": 4,
    "bbox": [
-    829.06,
-    185.01,
-    92.72,
-    40.73
+    828.84,
+    184.78,
+    93.37,
+    41.38
    ],
-   "area": 3776.49,
+   "area": 3863.65,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4954,12 +4954,12 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    672.35,
-    243.86,
-    45.02,
-    74.03
+    672.43,
+    243.58,
+    44.79,
+    75.25
    ],
-   "area": 3332.83,
+   "area": 3370.45,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -4992,12 +4992,12 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    395.45,
-    270.06,
-    78.43,
-    162.36
+    395.32,
+    269.84,
+    77.57,
+    164.84
    ],
-   "area": 12733.89,
+   "area": 12786.64,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5011,18 +5011,18 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    566.5,
-    255.08,
-    54.61,
-    99.64
+    566.38,
+    254.86,
+    55.24,
+    100.75
    ],
-   "area": 5441.34,
+   "area": 5565.43,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -5030,12 +5030,12 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    640.67,
-    293.33,
-    84.97,
-    116.29
+    640.59,
+    293.17,
+    84.73,
+    118.29
    ],
-   "area": 9881.16,
+   "area": 10022.71,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5163,12 +5163,12 @@
    "image_id": 21,
    "category_id": 13,
    "bbox": [
-    465.65,
-    302.53,
-    112.81,
-    160.59
+    463.17,
+    302.65,
+    114.93,
+    161.7
    ],
-   "area": 18116.16,
+   "area": 18584.18,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5313,14 +5313,14 @@
   {
    "id": 262,
    "image_id": 23,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
-    502.95,
-    157.76,
-    46.13,
-    85.38
+    502.7,
+    157.46,
+    46.4,
+    83.06
    ],
-   "area": 3938.58,
+   "area": 3853.98,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5334,12 +5334,12 @@
    "image_id": 23,
    "category_id": 13,
    "bbox": [
-    752.08,
-    163.38,
-    30.62,
-    67.38
+    752.34,
+    163.0,
+    30.29,
+    65.06
    ],
-   "area": 2063.18,
+   "area": 1970.67,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5408,7 +5408,7 @@
   {
    "id": 267,
    "image_id": 23,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     57.41,
     126.66,
@@ -5459,7 +5459,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -5600,12 +5600,12 @@
    "image_id": 24,
    "category_id": 1,
    "bbox": [
-    670.18,
-    207.38,
-    54.39,
-    41.28
+    670.23,
+    207.0,
+    54.96,
+    42.07
    ],
-   "area": 2245.22,
+   "area": 2312.17,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "3",
@@ -5620,11 +5620,11 @@
    "category_id": 1,
    "bbox": [
     0.0,
-    198.55,
-    281.7,
-    237.52
+    198.19,
+    292.43,
+    237.65
    ],
-   "area": 66909.38,
+   "area": 69495.99,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -5638,12 +5638,12 @@
    "image_id": 24,
    "category_id": 4,
    "bbox": [
-    165.42,
-    204.0,
-    158.2,
-    76.56
+    164.56,
+    203.28,
+    161.62,
+    79.82
    ],
-   "area": 12111.79,
+   "area": 12900.51,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -5733,12 +5733,12 @@
    "image_id": 25,
    "category_id": 11,
    "bbox": [
-    489.31,
-    346.91,
-    16.86,
-    46.55
+    488.9,
+    346.89,
+    17.31,
+    46.67
    ],
-   "area": 784.83,
+   "area": 807.86,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5790,12 +5790,12 @@
    "image_id": 25,
    "category_id": 12,
    "bbox": [
-    412.77,
-    358.85,
-    22.58,
-    42.83
+    412.48,
+    358.57,
+    22.95,
+    43.28
    ],
-   "area": 967.1,
+   "area": 993.28,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5809,12 +5809,12 @@
    "image_id": 25,
    "category_id": 12,
    "bbox": [
-    384.7,
-    361.55,
-    23.06,
-    41.54
+    384.63,
+    361.2,
+    23.31,
+    42.14
    ],
-   "area": 957.91,
+   "area": 982.28,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5866,18 +5866,18 @@
    "image_id": 25,
    "category_id": 13,
    "bbox": [
-    812.07,
-    351.43,
-    44.27,
-    75.3
+    811.6,
+    351.52,
+    44.81,
+    74.65
    ],
-   "area": 3333.53,
+   "area": 3345.07,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -5904,12 +5904,12 @@
    "image_id": 25,
    "category_id": 1,
    "bbox": [
-    872.71,
-    340.24,
-    87.29,
-    76.59
+    877.44,
+    340.06,
+    82.56,
+    76.72
    ],
-   "area": 6685.54,
+   "area": 6334.0,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -5923,12 +5923,12 @@
    "image_id": 25,
    "category_id": 1,
    "bbox": [
-    784.75,
-    351.12,
-    44.96,
-    36.13
+    784.21,
+    350.91,
+    46.63,
+    36.88
    ],
-   "area": 1624.4,
+   "area": 1719.71,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "3",
@@ -5942,12 +5942,12 @@
    "image_id": 25,
    "category_id": 1,
    "bbox": [
-    742.67,
-    345.61,
-    67.14,
-    63.88
+    742.36,
+    345.04,
+    67.42,
+    65.06
    ],
-   "area": 4288.9,
+   "area": 4386.35,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -6111,7 +6111,7 @@
   {
    "id": 304,
    "image_id": 26,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
     274.26,
     534.45,
@@ -6149,7 +6149,7 @@
   {
    "id": 306,
    "image_id": 28,
-   "category_id": 1,
+   "category_id": 2,
    "bbox": [
     26.24,
     299.39,
@@ -6162,7 +6162,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -6170,12 +6170,12 @@
    "image_id": 28,
    "category_id": 1,
    "bbox": [
-    610.95,
-    333.12,
-    288.25,
-    97.06
+    609.5,
+    332.91,
+    290.0,
+    99.24
    ],
-   "area": 27977.55,
+   "area": 28779.6,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -6246,12 +6246,12 @@
    "image_id": 29,
    "category_id": 14,
    "bbox": [
-    275.0,
-    190.89,
-    24.61,
-    42.16
+    274.75,
+    190.87,
+    25.0,
+    41.48
    ],
-   "area": 1037.56,
+   "area": 1037.0,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -6284,12 +6284,12 @@
    "image_id": 29,
    "category_id": 14,
    "bbox": [
-    214.88,
-    183.75,
-    29.19,
-    92.0
+    214.61,
+    183.93,
+    29.23,
+    91.52
    ],
-   "area": 2685.48,
+   "area": 2675.13,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -6314,7 +6314,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -6341,12 +6341,12 @@
    "image_id": 29,
    "category_id": 9,
    "bbox": [
-    211.85,
-    226.31,
-    30.79,
-    53.03
+    211.33,
+    225.43,
+    31.94,
+    54.23
    ],
-   "area": 1632.79,
+   "area": 1732.11,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -6390,7 +6390,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -6409,7 +6409,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -6455,18 +6455,18 @@
    "image_id": 30,
    "category_id": 7,
    "bbox": [
-    194.41,
-    119.91,
-    171.95,
-    227.65
+    196.91,
+    121.09,
+    169.29,
+    226.13
    ],
-   "area": 39144.42,
+   "area": 38281.55,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -6531,12 +6531,12 @@
    "image_id": 30,
    "category_id": 7,
    "bbox": [
-    769.9,
-    136.72,
-    71.19,
-    104.88
+    770.84,
+    136.41,
+    69.79,
+    104.6
    ],
-   "area": 7466.41,
+   "area": 7300.03,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "3",
@@ -6645,12 +6645,12 @@
    "image_id": 30,
    "category_id": 7,
    "bbox": [
-    908.64,
-    109.54,
-    51.36,
-    112.07
+    910.0,
+    113.03,
+    50.0,
+    108.48
    ],
-   "area": 5755.92,
+   "area": 5424.0,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -6930,18 +6930,18 @@
    "image_id": 31,
    "category_id": 11,
    "bbox": [
-    746.75,
-    353.25,
-    42.09,
-    133.57
+    747.17,
+    352.59,
+    41.39,
+    134.43
    ],
-   "area": 5621.96,
+   "area": 5564.06,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -6949,12 +6949,12 @@
    "image_id": 31,
    "category_id": 13,
    "bbox": [
-    234.68,
-    370.07,
-    25.44,
-    46.87
+    234.47,
+    370.56,
+    25.22,
+    45.58
    ],
-   "area": 1192.37,
+   "area": 1149.53,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -6987,12 +6987,12 @@
    "image_id": 31,
    "category_id": 7,
    "bbox": [
-    61.7,
-    400.65,
-    44.36,
-    59.03
+    61.63,
+    398.64,
+    44.44,
+    60.96
    ],
-   "area": 2618.57,
+   "area": 2709.06,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7006,12 +7006,12 @@
    "image_id": 31,
    "category_id": 7,
    "bbox": [
-    232.59,
-    387.19,
-    28.37,
-    46.71
+    232.26,
+    386.75,
+    28.46,
+    47.12
    ],
-   "area": 1325.16,
+   "area": 1341.04,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7063,12 +7063,12 @@
    "image_id": 31,
    "category_id": 1,
    "bbox": [
-    491.46,
-    366.35,
-    47.38,
-    45.82
+    491.33,
+    366.19,
+    47.0,
+    45.3
    ],
-   "area": 2170.95,
+   "area": 2129.1,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7251,14 +7251,14 @@
   {
    "id": 364,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    628.17,
-    278.11,
-    28.13,
-    88.31
+    628.69,
+    278.13,
+    27.21,
+    88.15
    ],
-   "area": 2484.16,
+   "area": 2398.56,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7291,12 +7291,12 @@
    "image_id": 32,
    "category_id": 1,
    "bbox": [
-    688.27,
-    268.85,
-    68.1,
-    64.23
+    687.86,
+    268.57,
+    68.61,
+    65.96
    ],
-   "area": 4374.06,
+   "area": 4525.52,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7346,7 +7346,7 @@
   {
    "id": 369,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     57.35,
     274.57,
@@ -7365,14 +7365,14 @@
   {
    "id": 370,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    113.55,
-    258.56,
-    26.65,
-    96.07
+    113.91,
+    258.22,
+    25.84,
+    96.57
    ],
-   "area": 2560.27,
+   "area": 2495.37,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7403,14 +7403,14 @@
   {
    "id": 372,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    173.33,
-    262.63,
-    24.67,
-    94.22
+    173.89,
+    263.02,
+    24.11,
+    94.27
    ],
-   "area": 2324.41,
+   "area": 2272.85,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7422,14 +7422,14 @@
   {
    "id": 373,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    205.82,
-    270.49,
-    26.34,
-    86.09
+    206.26,
+    271.08,
+    25.46,
+    85.62
    ],
-   "area": 2267.61,
+   "area": 2179.89,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7441,14 +7441,14 @@
   {
    "id": 374,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    249.42,
-    267.95,
-    31.79,
-    93.26
+    249.75,
+    269.38,
+    31.01,
+    92.12
    ],
-   "area": 2964.74,
+   "area": 2856.64,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7460,14 +7460,14 @@
   {
    "id": 375,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    311.63,
-    263.82,
-    30.7,
-    97.26
+    312.02,
+    263.78,
+    29.67,
+    97.33
    ],
-   "area": 2985.88,
+   "area": 2887.78,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7498,7 +7498,7 @@
   {
    "id": 377,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     352.07,
     265.57,
@@ -7511,26 +7511,26 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 378,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    377.89,
-    274.91,
-    26.93,
-    87.8
+    378.11,
+    274.89,
+    26.43,
+    87.75
    ],
-   "area": 2364.45,
+   "area": 2319.23,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -7574,7 +7574,7 @@
   {
    "id": 381,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     469.47,
     266.53,
@@ -7587,7 +7587,7 @@
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -7612,7 +7612,7 @@
   {
    "id": 383,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     535.98,
     273.02,
@@ -7625,13 +7625,13 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 384,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     657.72,
     275.71,
@@ -7644,7 +7644,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -7726,14 +7726,14 @@
   {
    "id": 389,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
-    563.73,
+    564.14,
     272.02,
-    32.13,
-    94.68
+    31.21,
+    94.84
    ],
-   "area": 3042.07,
+   "area": 2959.96,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -7745,7 +7745,7 @@
   {
    "id": 390,
    "image_id": 32,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     591.27,
     265.91,
@@ -7758,7 +7758,7 @@
     "occluded_level": "1",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -7918,18 +7918,18 @@
    "image_id": 34,
    "category_id": 13,
    "bbox": [
-    63.61,
-    226.76,
-    26.18,
-    52.35
+    63.28,
+    226.71,
+    26.46,
+    52.67
    ],
-   "area": 1370.52,
+   "area": 1393.65,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -7937,18 +7937,18 @@
    "image_id": 34,
    "category_id": 13,
    "bbox": [
-    171.85,
-    232.84,
-    23.12,
-    47.59
+    172.06,
+    232.8,
+    23.15,
+    47.25
    ],
-   "area": 1100.28,
+   "area": 1093.84,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -7975,24 +7975,24 @@
    "image_id": 34,
    "category_id": 13,
    "bbox": [
-    251.05,
-    235.21,
-    26.46,
-    42.35
+    251.78,
+    235.26,
+    25.61,
+    41.96
    ],
-   "area": 1120.58,
+   "area": 1074.6,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 403,
    "image_id": 34,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
     641.72,
     228.44,
@@ -8005,32 +8005,32 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 404,
    "image_id": 34,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
-    735.69,
-    239.06,
-    21.33,
-    44.24
+    735.86,
+    238.84,
+    21.64,
+    45.01
    ],
-   "area": 943.64,
+   "area": 974.02,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 405,
    "image_id": 34,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
     770.73,
     229.75,
@@ -8043,13 +8043,13 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 406,
    "image_id": 34,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
     821.81,
     220.39,
@@ -8068,20 +8068,20 @@
   {
    "id": 407,
    "image_id": 34,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
-    857.73,
-    159.18,
-    100.41,
-    318.31
+    856.7,
+    159.23,
+    100.98,
+    321.5
    ],
-   "area": 31961.51,
+   "area": 32465.07,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "yes",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -8100,7 +8100,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -8108,18 +8108,18 @@
    "image_id": 34,
    "category_id": 13,
    "bbox": [
-    160.55,
-    251.8,
-    42.48,
-    37.29
+    160.68,
+    252.71,
+    42.36,
+    36.4
    ],
-   "area": 1584.08,
+   "area": 1541.9,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -8127,18 +8127,18 @@
    "image_id": 34,
    "category_id": 13,
    "bbox": [
-    248.21,
-    249.78,
-    36.13,
-    38.63
+    248.5,
+    250.22,
+    35.92,
+    38.3
    ],
-   "area": 1395.7,
+   "area": 1375.74,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -8146,12 +8146,12 @@
    "image_id": 34,
    "category_id": 13,
    "bbox": [
-    281.49,
-    247.09,
-    28.27,
-    38.99
+    281.37,
+    246.63,
+    28.34,
+    39.71
    ],
-   "area": 1102.25,
+   "area": 1125.38,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -8165,12 +8165,12 @@
    "image_id": 34,
    "category_id": 13,
    "bbox": [
-    643.5,
-    255.6,
-    34.35,
-    61.3
+    642.9,
+    252.62,
+    35.39,
+    64.25
    ],
-   "area": 2105.66,
+   "area": 2273.81,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -8222,12 +8222,12 @@
    "image_id": 34,
    "category_id": 9,
    "bbox": [
-    574.06,
-    261.88,
-    61.14,
-    42.91
+    573.35,
+    262.33,
+    61.9,
+    42.65
    ],
-   "area": 2623.52,
+   "area": 2640.03,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -8241,12 +8241,12 @@
    "image_id": 34,
    "category_id": 14,
    "bbox": [
-    592.29,
-    226.03,
-    31.29,
-    71.26
+    591.4,
+    225.8,
+    32.32,
+    72.28
    ],
-   "area": 2229.73,
+   "area": 2336.09,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -8448,7 +8448,7 @@
   {
    "id": 427,
    "image_id": 35,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
     937.57,
     239.19,
@@ -8461,7 +8461,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -8526,18 +8526,18 @@
    "image_id": 35,
    "category_id": 7,
    "bbox": [
-    641.01,
-    290.32,
-    120.81,
-    212.87
+    640.29,
+    290.88,
+    119.57,
+    212.36
    ],
-   "area": 25716.82,
+   "area": 25391.89,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -8564,12 +8564,12 @@
    "image_id": 35,
    "category_id": 1,
    "bbox": [
-    727.6,
-    212.31,
-    113.81,
-    208.31
+    723.42,
+    211.9,
+    117.85,
+    208.85
    ],
-   "area": 23707.76,
+   "area": 24612.97,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -8581,14 +8581,14 @@
   {
    "id": 434,
    "image_id": 35,
-   "category_id": 11,
+   "category_id": 13,
    "bbox": [
-    324.5,
-    229.1,
-    49.75,
-    93.94
+    323.42,
+    229.37,
+    51.13,
+    93.92
    ],
-   "area": 4673.52,
+   "area": 4802.13,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -8679,11 +8679,11 @@
    "category_id": 7,
    "bbox": [
     0.0,
-    190.65,
-    47.97,
-    105.09
+    192.0,
+    47.0,
+    104.16
    ],
-   "area": 5041.17,
+   "area": 4895.52,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -8716,12 +8716,12 @@
    "image_id": 36,
    "category_id": 7,
    "bbox": [
-    39.59,
-    202.97,
-    56.31,
-    129.58
+    39.74,
+    200.07,
+    56.14,
+    133.08
    ],
-   "area": 7296.65,
+   "area": 7471.11,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "2",
@@ -8925,12 +8925,12 @@
    "image_id": 37,
    "category_id": 4,
    "bbox": [
-    709.54,
-    233.3,
-    61.68,
-    118.2
+    708.47,
+    232.89,
+    63.52,
+    118.49
    ],
-   "area": 7290.58,
+   "area": 7526.48,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "3",
@@ -9039,12 +9039,12 @@
    "image_id": 39,
    "category_id": 7,
    "bbox": [
-    464.61,
-    423.62,
-    38.19,
-    60.5
+    463.56,
+    423.05,
+    39.44,
+    61.33
    ],
-   "area": 2310.49,
+   "area": 2418.86,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -9058,12 +9058,12 @@
    "image_id": 39,
    "category_id": 7,
    "bbox": [
-    499.47,
-    424.12,
-    33.12,
-    49.48
+    499.59,
+    423.43,
+    34.35,
+    50.31
    ],
-   "area": 1638.78,
+   "area": 1728.15,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -9115,12 +9115,12 @@
    "image_id": 39,
    "category_id": 9,
    "bbox": [
-    698.39,
-    438.87,
-    24.11,
-    57.26
+    698.25,
+    437.64,
+    24.86,
+    58.52
    ],
-   "area": 1380.54,
+   "area": 1454.81,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -9134,12 +9134,12 @@
    "image_id": 39,
    "category_id": 13,
    "bbox": [
-    625.12,
-    411.34,
-    34.29,
-    63.15
+    624.9,
+    411.42,
+    34.35,
+    62.47
    ],
-   "area": 2165.41,
+   "area": 2145.84,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -9153,12 +9153,12 @@
    "image_id": 39,
    "category_id": 14,
    "bbox": [
-    698.62,
-    410.0,
-    27.5,
-    79.06
+    698.77,
+    409.52,
+    26.9,
+    80.03
    ],
-   "area": 2174.15,
+   "area": 2152.81,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
@@ -9183,7 +9183,7 @@
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -9191,12 +9191,12 @@
    "image_id": 39,
    "category_id": 1,
    "bbox": [
-    786.29,
-    407.76,
-    47.38,
-    31.15
+    785.88,
+    407.47,
+    48.18,
+    32.14
    ],
-   "area": 1475.89,
+   "area": 1548.51,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
@@ -9210,18 +9210,18 @@
    "image_id": 39,
    "category_id": 11,
    "bbox": [
-    545.4,
-    411.5,
-    22.53,
-    79.06
+    545.25,
+    411.38,
+    22.43,
+    79.31
    ],
-   "area": 1781.22,
+   "area": 1778.92,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -9229,18 +9229,18 @@
    "image_id": 39,
    "category_id": 11,
    "bbox": [
-    567.09,
-    413.38,
-    19.38,
-    76.7
+    567.11,
+    413.23,
+    19.0,
+    76.87
    ],
-   "area": 1486.45,
+   "area": 1460.53,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -9248,24 +9248,24 @@
    "image_id": 39,
    "category_id": 11,
    "bbox": [
-    840.26,
-    406.41,
-    22.62,
-    88.46
+    840.08,
+    406.03,
+    23.02,
+    89.05
    ],
-   "area": 2000.97,
+   "area": 2049.93,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "0",
     "truncated": "no",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
    "id": 470,
    "image_id": 39,
-   "category_id": 11,
+   "category_id": 12,
    "bbox": [
     862.22,
     403.45,
@@ -9392,7 +9392,7 @@
     "occluded_level": "0",
     "truncated": "yes",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
@@ -9400,18 +9400,18 @@
    "image_id": 40,
    "category_id": 1,
    "bbox": [
-    16.49,
-    177.99,
-    942.51,
-    459.3
+    17.33,
+    169.59,
+    941.91,
+    468.01
    ],
-   "area": 432894.84,
+   "area": 440823.3,
    "iscrowd": 0,
    "attributes": {
     "occluded_level": "1",
     "truncated": "yes",
     "can_review": false,
-    "needs_calibration": true
+    "needs_calibration": false
    }
   },
   {
