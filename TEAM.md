@@ -4,7 +4,7 @@
 - Mã thành viên (ba chữ số): 143, 180
 - Người điều phối: 143
 - Người review bản cuối: 143
-- Commit chốt bài (điền ở kênh nộp sau khi commit): f274c63
+- Commit chốt bài (điền ở kênh nộp sau khi commit): 9709d9c
 
 ## Kết quả tóm tắt (điền cuối bài)
 
